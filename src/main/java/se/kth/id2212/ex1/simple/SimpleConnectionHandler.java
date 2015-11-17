@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.net.Socket;
 
 public class SimpleConnectionHandler extends Thread {
-
     private Socket clientSocket;
 
     public SimpleConnectionHandler(Socket clientSocket) {
