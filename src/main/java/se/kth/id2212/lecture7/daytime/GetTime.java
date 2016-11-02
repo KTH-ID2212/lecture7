@@ -16,7 +16,6 @@ public class GetTime {
         URL daytimeServer = new URL("daytime://" + DAYTIME_SERVER);
         URLConnection timeServer = daytimeServer.openConnection();
         timeServer.connect();
-        Thread.sleep(5000);
         BufferedReader content = new BufferedReader(new InputStreamReader((InputStream) timeServer.
                 getContent()));
         String result = null;
