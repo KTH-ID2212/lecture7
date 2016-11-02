@@ -22,7 +22,7 @@ public class SimpleServer
 
         try
         {
-            serverSocket = new ServerSocket(7);
+            serverSocket = new ServerSocket(4444);
         } catch (IOException e)
         {
             e.printStackTrace();
