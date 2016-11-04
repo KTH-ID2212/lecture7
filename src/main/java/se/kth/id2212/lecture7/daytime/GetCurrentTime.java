@@ -1,10 +1,7 @@
 package se.kth.id2212.lecture7.daytime;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * A client using the daytime protocol to get the current time.
