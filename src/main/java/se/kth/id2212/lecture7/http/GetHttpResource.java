@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 /**
  * Handles a HTP resource.
  */
-public class HttpResource {
+public class GetHttpResource {
 
     private URL resourceUrl;
 
@@ -26,7 +26,7 @@ public class HttpResource {
      * @param url The url of the resource that shall be downloaded.
      * @throws java.net.MalformedURLException If the specified url is invalid.
      */
-    public HttpResource(String url) throws MalformedURLException {
+    public GetHttpResource(String url) throws MalformedURLException {
         this.resourceUrl = new URL(url);
     }
 
@@ -87,6 +87,6 @@ public class HttpResource {
      */
     public static void main(String[] args) throws MalformedURLException,
                                                   IOException {
-        new HttpResource(args[0]).loadResource();
+        new GetHttpResource(args[0]).loadResource();
     }
 }
