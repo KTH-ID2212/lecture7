@@ -37,8 +37,7 @@ public class GetHttpResource {
      */
     public void loadResource() throws IOException {
         final Image image;
-        System.out.println("MIME: "
-                           + resourceUrl.openConnection().getContentType());
+        System.out.println("MIME: " + resourceUrl.openConnection().getContentType());
         Object resource = resourceUrl.getContent();
         if (resource instanceof ImageProducer) {
             handleImageResource(resource);

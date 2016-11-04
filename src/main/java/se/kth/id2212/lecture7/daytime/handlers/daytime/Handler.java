@@ -5,13 +5,13 @@ import java.net.URLConnection;
 import java.net.URLStreamHandler;
 
 /**
- * A read-only stream handler that uses the TCP based daytime protocol to get the current time from
- * the specified host.
+ * A read-only stream handler that uses the TCP based daytime protocol to get
+ * the current time from the specified host.
  */
 public class Handler extends URLStreamHandler {
     /**
-     * Creates a <code>URLConnection</code> that can be used to read the time from the specified
-     * host.
+     * Creates a <code>URLConnection</code> that can be used to read the
+     * time from the specified host.
      *
      * @param url The host with the daytime server.
      * @return A <code>URLConnection</code> that can be used to request the daytime from the
